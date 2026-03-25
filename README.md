@@ -1,5 +1,4 @@
 ## 📊 Sample Output
-
 ![Denial Risk Chart](denial_risk_chart.png)
 
 ## 🧠 What This Project Shows
