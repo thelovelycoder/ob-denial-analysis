@@ -1,8 +1,27 @@
+## 📊 Executive Summary
+
+This project analyzes OB denial patterns to identify risk trends, coding inconsistencies, and opportunities for revenue cycle improvement.
+
+Using Python, I evaluated denial risk levels and created a visual breakdown to highlight where organizations may be losing revenue due to preventable issues.
+
+**Focus Areas:**
+- Denial risk distribution
+- Data consistency issues
+- Revenue cycle improvement opportunities
+
+**Outcome:**
+Actionable insights to reduce denials, improve coding accuracy, and support financial performance.
+## 📊 Key Insight
+
+The majority of denials fall within specific risk categories, indicating patterns that may be driven by documentation gaps, coding inconsistencies, or payer-specific rules.
+
+This visualization highlights where intervention efforts should be focused to reduce revenue leakage.
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # File path
-file_path = "/Users/lovelycauthen/Documents/claims_audit_engine/OB Denial Tool.xlsx"
+file_path = "OB Denial Tool.xlsx"
 
 # Load data
 df = pd.read_excel(file_path)
@@ -24,3 +43,4 @@ plt.savefig("denial_risk_chart.png")
 
 # Show chart
 plt.show()
+```
