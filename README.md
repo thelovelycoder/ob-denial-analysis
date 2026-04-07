@@ -12,7 +12,9 @@ Using Python, I evaluated denial risk levels and created a visual breakdown to h
 **Outcome:**
 Actionable insights to reduce denials, improve coding accuracy, and support financial performance.
 ## 📊 Key Insight
+## 📈 Denial Risk Distribution
 
+![Denial Risk Chart](denial_risk_chart.png)
 The majority of denials fall within specific risk categories, indicating patterns that may be driven by documentation gaps, coding inconsistencies, or payer-specific rules.
 
 This visualization highlights where intervention efforts should be focused to reduce revenue leakage.
